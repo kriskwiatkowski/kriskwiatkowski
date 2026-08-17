@@ -1,8 +1,4 @@
-```
-cryptography engineering / standards / deployment
-```
- 
-I've been writing cryptographic code for about twenty years. Mostly C,
+I've been writing cryptographic code for about twenty years. Mostly C, Go,
 some Rust, assembly when the compiler won't cooperate. Primitives,
 protocols, and the unglamorous stretch in between where a specification
 meets a device with a few kilobytes of RAM and no entropy source anyone
@@ -24,16 +20,7 @@ whether something sound on paper is still sound after it meets silicon.
 Lattice signatures, multivariate schemes, code-based KEMs. The tradeoffs
 between them only get honest once you try to fit one into a real
 product.
- 
---------------------------------------------------------------------
- 
-Advisory
 
-I take on advisory board roles in security and cryptography. If you
-are planning a migration to post-quantum, arguing about hybrid modes,
-or trying to work out what your standards exposure actually is, that
-is the kind of thing I'm useful for.
- 
 --------------------------------------------------------------------
  
 Elsewhere
