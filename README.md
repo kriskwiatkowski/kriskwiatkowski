@@ -1,41 +1,34 @@
 ```
- _  __     _
-| |/ /_ __(_)___
-| ' /| '__| / __|
-| . \| |  | \__ \
-|_|\_\_|  |_|___/
- 
 cryptography engineering / standards / deployment
 ```
  
-I work on post-quantum cryptography: the algorithms themselves, the
-implementations, and the long road from a draft spec to something
-actually running in production.
+I've been writing cryptographic code for about twenty years. Mostly C,
+some Rust, assembly when the compiler won't cooperate. Primitives,
+protocols, and the unglamorous stretch in between where a specification
+meets a device with a few kilobytes of RAM and no entropy source anyone
+should trust.
 
 --------------------------------------------------------------------
  
 What I'm working on
 
-Efficient Post-quantum Cryptographic Components. Implementations
-of PQC primitives in C and Rust, built for constrained targets rather
-than servers: no_std, embedded and riscv64, tight memory budgets, the
-places where a reference implementation is not an option.
- 
-Side-channel resistance. Constant-time construction, DPA and fault
-considerations, leakage assessment, countermeasure design. This is the
-part that decides whether a scheme that is sound on paper is still sound
-once it is running on real hardware, and it is where most of my time
-goes.
- 
-Lattice-based signatures, multivariate schemes and code-based KEMs, with
-attention to the tradeoffs that only become visible when you try to fit
-one of them into an actual device.
+Efficient Post-quantum Cryptographic Components - PQC primitives in
+C and Rust for constrained targets. no_std, arm-m, riscv64, tight memory
+budgets. Reference implementations are written for papers, not for
+devices.
 
+Side channels. Constant time, DPA, faults, leakage assessment,
+countermeasures. Most of my time goes here. It is the part that decides
+whether something sound on paper is still sound after it meets silicon.
+ 
+Lattice signatures, multivariate schemes, code-based KEMs. The tradeoffs
+between them only get honest once you try to fit one into a real
+product.
  
 --------------------------------------------------------------------
  
 Advisory
- 
+
 I take on advisory board roles in security and cryptography. If you
 are planning a migration to post-quantum, arguing about hybrid modes,
 or trying to work out what your standards exposure actually is, that
@@ -45,5 +38,5 @@ is the kind of thing I'm useful for.
  
 Elsewhere
  
-Contact: contact@amongbytes.com
+Profile: [https://amongbytes.com/about.html#sec-profile](https://amongbytes.com/about.html#sec-profile)
  
