@@ -6,4 +6,3 @@ should trust.
 
 Profile: [https://amongbytes.com/about.html#sec-profile](https://amongbytes.com/about.html#sec-profile)
  
-<iframe src="https://github.com/sponsors/kriskwiatkowski/card" title="Sponsor kriskwiatkowski" height="225" width="600" style="border: 0;"></iframe>
